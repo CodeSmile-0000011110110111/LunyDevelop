@@ -165,6 +165,34 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "de.codesmile.core": {
+      "version": "file:P:/de.codesmile.core",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
+    "de.codesmile.luacsharp": {
+      "version": "file:P:/de.codesmile.luacsharp",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
+    "de.codesmile.luny": {
+      "version": "file:P:/de.codesmile.luny",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "de.codesmile.core": "1.0.0",
+        "de.codesmile.luacsharp": "0.5.0-dev.1",
+        "com.unity.test-framework": "1.5.1"
+      }
+    },
+    "de.codesmile.luny-install": {
+      "version": "file:P:/de.codesmile.luny-install",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
       "depth": 0,
