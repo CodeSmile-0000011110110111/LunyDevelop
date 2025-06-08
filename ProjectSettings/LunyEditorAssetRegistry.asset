@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LuaAssets:
     m_LuaAssets:
+    - {fileID: -6979533126094156877, guid: 306b2ee0266f33f459ffbdb10a990d13, type: 3}
     - {fileID: -6979533126094156877, guid: 4ef2d8a5f83704f428ecd61cce1f002d, type: 3}
     - {fileID: -6979533126094156877, guid: fa8c404c08344e24aab22645aba7a4d3, type: 3}
     - {fileID: -6979533126094156877, guid: d2275934239275e49be69755551f02b4, type: 3}
@@ -23,6 +24,7 @@ MonoBehaviour:
     - {fileID: -6979533126094156877, guid: 74886c08a82d0a14381d19b5965ab84c, type: 3}
     - {fileID: -6979533126094156877, guid: 8295c1d81a753f84b92617a11e79fdb0, type: 3}
     m_LuaAssetNames:
+    - NewLuaScript
     - NewLuaScript 1
     - NewLuaScript 2
     - NewLuaScript 3
@@ -32,6 +34,7 @@ MonoBehaviour:
     - NewLuaScript 7
     - NewLuaScript
     m_LuaAssetPaths:
+    - Assets/LunyScripts/Editor/NewLuaScript.lua
     - Assets/LunyTest/tetsts/NewLuaScript 1.lua
     - Assets/LunyTest/tetsts/NewLuaScript 2.lua
     - Assets/LunyTest/tetsts/NewLuaScript 3.lua

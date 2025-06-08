@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb0ed1d0d6a140f8ba5a964934bdd1c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_LunyScriptsRootFolder: {fileID: 102900000, guid: e94f9e908e0b62d47812a08d7eb2059e, type: 3}
   m_DefaultEditorContext: {fileID: 11400000, guid: 0523cdfce0433f446ba5a8b5757551e5, type: 2}
   m_DefaultRuntimeContext: {fileID: 11400000, guid: 8d2757e06bcbfdf40a65af80056a3299, type: 2}
+  m_DefaultModdingContext: {fileID: 11400000, guid: 768214e4f8aefd941a550c8bfa6bc717, type: 2}
