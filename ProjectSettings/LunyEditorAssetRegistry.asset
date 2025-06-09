@@ -12,35 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4533777e14b41b9993a4ccdf797c461, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_LuaAssets:
+  m_EditorLuaAssets:
     m_LuaAssets:
-    - {fileID: -6979533126094156877, guid: 306b2ee0266f33f459ffbdb10a990d13, type: 3}
-    - {fileID: -6979533126094156877, guid: 4ef2d8a5f83704f428ecd61cce1f002d, type: 3}
-    - {fileID: -6979533126094156877, guid: fa8c404c08344e24aab22645aba7a4d3, type: 3}
-    - {fileID: -6979533126094156877, guid: d2275934239275e49be69755551f02b4, type: 3}
-    - {fileID: -6979533126094156877, guid: 85beafe8f2b7e794ea819de3c4e409a0, type: 3}
-    - {fileID: -6979533126094156877, guid: 7abdc3448b030e140b2f66ce8ec2309b, type: 3}
-    - {fileID: -6979533126094156877, guid: 1cba94feccd21894aa0bdeb53755968a, type: 3}
-    - {fileID: -6979533126094156877, guid: 74886c08a82d0a14381d19b5965ab84c, type: 3}
-    - {fileID: -6979533126094156877, guid: 8295c1d81a753f84b92617a11e79fdb0, type: 3}
+    - {fileID: -6979533126094156877, guid: fbf4464030f2ea2429f5f01d2348e09f, type: 3}
+    - {fileID: -6979533126094156877, guid: b61752c464a7bf1488b026cb4c394e97, type: 3}
     m_LuaAssetNames:
-    - NewLuaScript
-    - NewLuaScript 1
-    - NewLuaScript 2
-    - NewLuaScript 3
-    - NewLuaScript 4
-    - NewLuaScript 5
-    - NewLuaScript 6
-    - NewLuaScript 7
-    - NewLuaScript
+    - MainEditorScript
+    - AuxEditorScript
     m_LuaAssetPaths:
-    - Assets/LunyScripts/Editor/NewLuaScript.lua
-    - Assets/LunyTest/tetsts/NewLuaScript 1.lua
-    - Assets/LunyTest/tetsts/NewLuaScript 2.lua
-    - Assets/LunyTest/tetsts/NewLuaScript 3.lua
-    - Assets/LunyTest/tetsts/NewLuaScript 4.lua
-    - Assets/LunyTest/tetsts/NewLuaScript 5.lua
-    - Assets/LunyTest/tetsts/NewLuaScript 6.lua
-    - Assets/LunyTest/tetsts/NewLuaScript 7.lua
-    - Assets/LunyTest/tetsts/NewLuaScript.lua
-  m_DefaultContext: {fileID: 11400000, guid: 0523cdfce0433f446ba5a8b5757551e5, type: 2}
+    - Assets/Scripts/Luny/Editor/MainEditorScript.lua
+    - Assets/Scripts/Luny/Editor/New Folder/AuxEditorScript.lua
+  m_EditorContext: {fileID: 11400000, guid: 0523cdfce0433f446ba5a8b5757551e5, type: 2}
