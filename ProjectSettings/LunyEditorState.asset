@@ -12,5 +12,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dfc89fee5624dd98f3e6ab966cb9024, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabledCount: 43
-  disabledCount: 43
