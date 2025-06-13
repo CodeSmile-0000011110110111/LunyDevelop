@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EditorLuaAssets:
-    m_LuaAssets: []
+    m_LuaAssets:
+    - {fileID: -6979533126094156877, guid: fbf4464030f2ea2429f5f01d2348e09f, type: 3}
+    - {fileID: -6979533126094156877, guid: b61752c464a7bf1488b026cb4c394e97, type: 3}
+    - {fileID: -6979533126094156877, guid: 7e4a939da7f69ea4e82b5f0f6e69546d, type: 3}
+    - {fileID: -6979533126094156877, guid: 9be4f0d69be963b47aefc76a75730045, type: 3}
     m_LuaAssetPaths:
     - Assets/Scripts/Luny/Editor/MainEditorScript.lua
     - Assets/Scripts/Luny/Editor/New Folder/AuxEditorScript.lua

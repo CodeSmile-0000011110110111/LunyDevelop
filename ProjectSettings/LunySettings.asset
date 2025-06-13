@@ -19,4 +19,5 @@ MonoBehaviour:
   - {fileID: -6979533126094156877, guid: fbf4464030f2ea2429f5f01d2348e09f, type: 3}
   m_RuntimeStartupScripts:
   - {fileID: -6979533126094156877, guid: 6ebe22f43c7f72146a5ffd10e98ca6d7, type: 3}
-  m_ModdingStartupScripts: []
+  m_ModdingStartupScripts:
+  - {fileID: -6979533126094156877, guid: 4c4bdb3fa545a224788e492a97aaf4bf, type: 3}
