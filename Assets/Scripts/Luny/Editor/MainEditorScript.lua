@@ -18,4 +18,20 @@ else
     print("auxScript is nil!")
 end
 
+function context.Reset()
+    print("RESET")
+end
+
+function context.Awake()
+    print("Rise and shine, Mr. Luny!")
+end
+
+function context.OnEnable()
+    print("OnEnable")
+end
+
+function context.OnDisable()
+    print("OnDisable")
+end
+
 --dofile("P:/test.lua")
