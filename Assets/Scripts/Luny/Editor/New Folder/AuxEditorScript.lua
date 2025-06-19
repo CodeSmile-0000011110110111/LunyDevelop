@@ -1,2 +1,3 @@
 local context = ...
-print("Hello, AuxEditorScript! Script table: " .. tostring(context))
+
+print("Hello, AuxEditorScript! Context: " .. tostring(context))
