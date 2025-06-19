@@ -1,4 +1,5 @@
 local context = ...
+context.EditorType = "ScriptableSingleton"
 
 context.ChangeCount = context.ChangeCount ~= nil and context.ChangeCount + 1 or 0
 print("Change count = " .. tostring(context.ChangeCount))
@@ -19,19 +20,23 @@ else
 end
 
 function context.Reset()
-    print("RESET")
+    print("Lua Reset")
 end
 
 function context.Awake()
-    print("Rise and shine, Mr. Luny!")
+    print("Lua Awake - Rise and shine, Mr. Luny!")
 end
 
 function context.OnEnable()
-    print("OnEnable")
+    print("Lua OnEnable " .. tostring(context.ChangeCount))
 end
 
 function context.OnDisable()
-    print("OnDisable")
+    print("Lua OnDisable")
+end
+
+function context.OnDestroy()
+    print("Lua OnDestroy")
 end
 
 --dofile("P:/test.lua")
