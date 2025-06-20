@@ -27,7 +27,6 @@ function context.OnDestroy()
     print("LunyScript OnDestroy")
 end
 
-
 -- This runs whenever you change the script's contents and save it. On save! You needn't even tab into Unity.
 -- Perhaps you may need to save some state at this point? Who knows. It's good to have that callback for sure.
 -- Note that this does not run when the script is first loaded. Hence the "reload" in the name.

@@ -498,7 +498,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b221aacb13e14ed2b2493464749d17f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AssetRegistry: {fileID: 0}
+  m_AssetRegistry: {fileID: 11400000, guid: 02554f94381e1344e81843dfc876db71, type: 2}
+  m_DevelopRunInBackground: 1
 --- !u!4 &607321477
 Transform:
   m_ObjectHideFlags: 0

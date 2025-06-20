@@ -45,6 +45,7 @@ loadfile("New Folder/AuxEditorScript.lua")(context)
 
 -- Of course, any event function that isn't implemented doesn't add overhead to script execution.
 
+
 -- Reset of ScriptableSingleton gets run only once when the project or script loads.
 function context.Reset()
     print("Lua Reset")
