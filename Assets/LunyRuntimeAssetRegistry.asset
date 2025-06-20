@@ -21,13 +21,19 @@ MonoBehaviour:
     - Assets/Scripts/Luny/Runtime/RuntimeStartup.lua
   m_RuntimeLuaAssets:
     m_LuaAssets:
-    - {fileID: -6979533126094156877, guid: 9b69edbf7518e474aacceea8bc83419a, type: 3}
     - {fileID: -6979533126094156877, guid: 285385657dcb78f4aa76879b73b56714, type: 3}
     - {fileID: -6979533126094156877, guid: 6ebe22f43c7f72146a5ffd10e98ca6d7, type: 3}
+    - {fileID: -6979533126094156877, guid: b58fc99859ab0354d8558af7e3bf0f91, type: 3}
+    - {fileID: -6979533126094156877, guid: 081469867f25360409f13a2e53f45a6d, type: 3}
+    - {fileID: -6979533126094156877, guid: d7bd4f279e2ce5e4d9ee2db4bf4a26c2, type: 3}
+    - {fileID: -6979533126094156877, guid: c68f71dae5f140a489727de792b6f0ee, type: 3}
     m_LuaAssetPaths:
-    - Assets/Scripts/Luny/Runtime/Luny Runtime Test Script.lua
     - Assets/Scripts/Luny/Runtime/New Folder/AuxRuntimeScript.lua
     - Assets/Scripts/Luny/Runtime/RuntimeStartup.lua
+    - Assets/Scripts/Luny/Runtime/TestCustomLunyScript.lua
+    - Assets/Scripts/Luny/Runtime/TestLunyScript.lua
+    - Assets/Scripts/Luny/Runtime/TestModdingLunyScript.lua
+    - Assets/Scripts/Luny/Runtime/TestCustomModdingLunyScript.lua
   m_ModdingStartupLuaAssets:
     m_LuaAssets:
     - {fileID: -6979533126094156877, guid: 4c4bdb3fa545a224788e492a97aaf4bf, type: 3}
