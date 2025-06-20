@@ -148,8 +148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e26b507edb564f54b60396599740ab0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Script: {fileID: -6979533126094156877, guid: b58fc99859ab0354d8558af7e3bf0f91, type: 3}
-  UseModdingContext: 0
+  m_LuaAsset: {fileID: -6979533126094156877, guid: b58fc99859ab0354d8558af7e3bf0f91, type: 3}
+  m_UseModdingContext: 0
 --- !u!4 &234413402
 Transform:
   m_ObjectHideFlags: 0
@@ -331,8 +331,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e26b507edb564f54b60396599740ab0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Script: {fileID: -6979533126094156877, guid: d7bd4f279e2ce5e4d9ee2db4bf4a26c2, type: 3}
-  UseModdingContext: 1
+  m_LuaAsset: {fileID: -6979533126094156877, guid: d7bd4f279e2ce5e4d9ee2db4bf4a26c2, type: 3}
+  m_UseModdingContext: 0
 --- !u!4 &331516351
 Transform:
   m_ObjectHideFlags: 0
@@ -592,8 +592,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e26b507edb564f54b60396599740ab0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Script: {fileID: -6979533126094156877, guid: c68f71dae5f140a489727de792b6f0ee, type: 3}
-  UseModdingContext: 1
+  m_LuaAsset: {fileID: -6979533126094156877, guid: c68f71dae5f140a489727de792b6f0ee, type: 3}
+  m_UseModdingContext: 0
 --- !u!4 &1444860806
 Transform:
   m_ObjectHideFlags: 0
@@ -638,8 +638,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e26b507edb564f54b60396599740ab0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Script: {fileID: -6979533126094156877, guid: 081469867f25360409f13a2e53f45a6d, type: 3}
-  UseModdingContext: 0
+  m_LuaAsset: {fileID: -6979533126094156877, guid: 081469867f25360409f13a2e53f45a6d, type: 3}
+  m_UseModdingContext: 0
 --- !u!4 &1631893398
 Transform:
   m_ObjectHideFlags: 0

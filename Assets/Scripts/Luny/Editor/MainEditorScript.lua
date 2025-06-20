@@ -73,17 +73,15 @@ function context.OnDestroy()
     print("Lua OnDestroy")
 end
 
--- This runs whenever you changed the script's contents and saved. Saved! You needn't even tab into Unity.
--- Perhaps you may need to save some state at this point? Who knows. It's good to have that callback.
--- Okay, maybe that is also unexpected, perhaps I'll have a toggle for that in settings.
--- Perhaps "OnlyReloadChangedScriptsOnFocus"? Ugh. Naming things is hard. :)
+-- This runs whenever you change the script's contents and save it. On save! You needn't even tab into Unity.
+-- Perhaps you may need to save some state at this point? Who knows. It's good to have that callback for sure.
+-- Note that this does not run when the script is first loaded. Hence the "reload" in the name.
 function context.OnWillReloadScript()
     print("Lua OnWillReloadScript")
 end
 
--- This runs AFTER the changed script got re-run by Luny, and before any other events. Perhaps you need to restore
--- some state before the script's Awake or OnEnable run. Or you could just use "context" as values in it will also
--- survive both file and domain reload.
-function context.OnDidReloadScript()
-    print("Lua OnDidReloadScript")
+-- This runs AFTER the script was (re-)loaded, before any other events (ie Awake). Perhaps you need to restore
+-- some state before the script's Awake runs. Commonly used in combintation with OnWillReloadScript.
+function context.OnDidLoadScript()
+    print("Lua OnDidLoadScript")
 end
