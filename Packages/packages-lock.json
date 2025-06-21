@@ -182,9 +182,8 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "de.codesmile.core": "1.0.0",
         "de.codesmile.luacsharp": "0.5.0-dev.1",
-        "com.unity.test-framework": "1.5.1"
+        "de.codesmile.core": "1.0.0"
       }
     },
     "de.codesmile.luny-install": {

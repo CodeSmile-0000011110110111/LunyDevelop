@@ -129,6 +129,8 @@ GameObject:
   m_Component:
   - component: {fileID: 234413402}
   - component: {fileID: 234413403}
+  - component: {fileID: 234413404}
+  - component: {fileID: 234413405}
   m_Layer: 0
   m_Name: CustomLunyScript
   m_TagString: Untagged
@@ -164,7 +166,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_LuaAsset: {fileID: -6979533126094156877, guid: b58fc99859ab0354d8558af7e3bf0f91, type: 3}
+  m_LuaFilePath: 
+  m_LuaScriptEvents: -1
   m_UseModdingContext: 0
+--- !u!114 &234413404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234413400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea2b541fb71af6747bbcfeaaecec23c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LuaAsset: {fileID: 0}
+  m_LuaFilePath: StreamingLua.lua
+  m_LuaScriptEvents: -1
+  m_UseModdingContext: 1
+--- !u!114 &234413405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234413400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea2b541fb71af6747bbcfeaaecec23c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LuaAsset: {fileID: 0}
+  m_LuaFilePath: ResourcesLua
+  m_LuaScriptEvents: -1
+  m_UseModdingContext: 1
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,6 +368,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_LuaAsset: {fileID: -6979533126094156877, guid: d7bd4f279e2ce5e4d9ee2db4bf4a26c2, type: 3}
+  m_LuaFilePath: 
+  m_LuaScriptEvents: -1
   m_UseModdingContext: 0
 --- !u!4 &331516351
 Transform:
@@ -609,7 +647,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_LuaAsset: {fileID: -6979533126094156877, guid: c68f71dae5f140a489727de792b6f0ee, type: 3}
+  m_LuaFilePath: 
+  m_LuaScriptEvents: -1
   m_UseModdingContext: 0
+--- !u!1 &1503011720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1503011721}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1503011721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503011720}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1631893396
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,6 +711,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_LuaAsset: {fileID: -6979533126094156877, guid: 081469867f25360409f13a2e53f45a6d, type: 3}
+  m_LuaFilePath: 
+  m_LuaScriptEvents: -1
   m_UseModdingContext: 0
 --- !u!4 &1631893398
 Transform:
@@ -668,3 +741,4 @@ SceneRoots:
   - {fileID: 331516351}
   - {fileID: 234413402}
   - {fileID: 1444860806}
+  - {fileID: 1503011721}

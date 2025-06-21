@@ -1,11 +1,12 @@
 -- 'context' can be any name, the ellipsis (...) represents arguments passed to the script
 local context = ...
 
--- Unity events are Lua functions of the same name, defined in the 'context' table:
-function context.Awake()
-	print("AWAKE Hello, " .. context.ScriptName .. ".lua on " .. tostring(context.gameObject))
-end
-function context.OnEnable() print("ONENABLE") end
-function context.Start() print("START") end
-function context.OnDisable() print("ONDISABLE") end
-function context.OnDestroy() print("ONDESTROY") end
+function context.OnWillReloadScript() print("OnWillReloadScript " .. context.ScriptName) end
+function context.OnDidLoadScript() print("OnDidLoadScript " .. context.ScriptName) end
+function context.OnValidate() print("OnValidate " .. context.ScriptName) end
+function context.Awake() print("Awake " .. context.ScriptName) end
+function context.OnEnable() print("OnEnable " .. context.ScriptName) end
+function context.Start() print("Start " .. context.ScriptName) end
+function context.OnDisable() print("OnDisable " .. context.ScriptName) end
+function context.OnDestroy() print("OnDestroy " .. context.ScriptName) end
+--function context.Update() print("Update XXXXXX  " .. context.ScriptName) end
