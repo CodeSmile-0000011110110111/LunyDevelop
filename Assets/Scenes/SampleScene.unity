@@ -128,7 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 234413402}
-  - component: {fileID: 234413401}
+  - component: {fileID: 234413403}
   m_Layer: 0
   m_Name: CustomLunyScript
   m_TagString: Untagged
@@ -136,20 +136,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &234413401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 234413400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e26b507edb564f54b60396599740ab0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_LuaAsset: {fileID: -6979533126094156877, guid: b58fc99859ab0354d8558af7e3bf0f91, type: 3}
-  m_UseModdingContext: 0
 --- !u!4 &234413402
 Transform:
   m_ObjectHideFlags: 0
@@ -165,6 +151,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &234413403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234413400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea2b541fb71af6747bbcfeaaecec23c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LuaAsset: {fileID: -6979533126094156877, guid: b58fc99859ab0354d8558af7e3bf0f91, type: 3}
+  m_UseModdingContext: 0
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,7 +318,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &331516350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -573,28 +573,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1444860806}
-  - component: {fileID: 1444860805}
+  - component: {fileID: 1444860807}
   m_Layer: 0
   m_Name: CustomModdingLunyScript
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1444860805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444860804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e26b507edb564f54b60396599740ab0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_LuaAsset: {fileID: -6979533126094156877, guid: c68f71dae5f140a489727de792b6f0ee, type: 3}
-  m_UseModdingContext: 0
+  m_IsActive: 0
 --- !u!4 &1444860806
 Transform:
   m_ObjectHideFlags: 0
@@ -610,6 +596,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1444860807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444860804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d75d6d40695ec64db6111affdd5d665, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LuaAsset: {fileID: -6979533126094156877, guid: c68f71dae5f140a489727de792b6f0ee, type: 3}
+  m_UseModdingContext: 0
 --- !u!1 &1631893396
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,7 +626,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1631893397
 MonoBehaviour:
   m_ObjectHideFlags: 0

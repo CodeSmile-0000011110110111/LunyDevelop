@@ -4,11 +4,6 @@ using UnityEngine;
 
 public sealed class TestCustomModdingLunyScript : LunyScript
 {
-	// Awake cannot be overridden, use OnAwake instead. The script has not been loaded at this point!
-	protected override void OnAwake()
-	{
-	}
-
 	// Script was run and returned a LuaTable. Script's Awake() function has not been called yet.
 	// You may want to get/set initial script variables before script's Awake():
 	protected override void OnBeforeScriptLoad(LuaTable scriptContext)
