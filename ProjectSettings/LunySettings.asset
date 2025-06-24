@@ -17,6 +17,7 @@ MonoBehaviour:
   m_ModdingContext: {fileID: 11400000, guid: 768214e4f8aefd941a550c8bfa6bc717, type: 2}
   m_EditorStartupScripts:
   - {fileID: -6979533126094156877, guid: fbf4464030f2ea2429f5f01d2348e09f, type: 3}
+  - {fileID: -6979533126094156877, guid: a7b5d4a4e2222ca43a1d315172b149e8, type: 3}
   m_RuntimeStartupScripts:
   - {fileID: -6979533126094156877, guid: 6ebe22f43c7f72146a5ffd10e98ca6d7, type: 3}
   m_ModdingStartupScripts:
