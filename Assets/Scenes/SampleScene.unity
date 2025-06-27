@@ -214,6 +214,69 @@ MonoBehaviour:
   m_LuaAsset: {fileID: -6979533126094156877, guid: d6e60ff13e5ae8e4883cc7127ce97229, type: 3}
   m_LuaFilePath: 
   m_ForwardedEventTypes: -1
+--- !u!1 &244724135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 244724138}
+  - component: {fileID: 244724137}
+  - component: {fileID: 244724136}
+  m_Layer: 0
+  m_Name: LunyScriptedObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &244724136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244724135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 145e348c0ebd7d0449fca05b237c4295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LuaAsset: {fileID: 0}
+  m_LuaFilePath: Mods/MyModScript.lua
+  m_ForwardedEventTypes: 8
+--- !u!114 &244724137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244724135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea2b541fb71af6747bbcfeaaecec23c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LuaAsset: {fileID: -6979533126094156877, guid: b58fc99859ab0354d8558af7e3bf0f91, type: 3}
+  m_LuaFilePath: 
+  m_ForwardedEventTypes: 72
+--- !u!4 &244724138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244724135}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -548,7 +611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b221aacb13e14ed2b2493464749d17f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AssetRegistry: {fileID: 11400000, guid: 02554f94381e1344e81843dfc876db71, type: 2}
+  m_AssetRegistry: {fileID: 0}
   m_DevelopRunInBackground: 1
 --- !u!4 &607321477
 Transform:
@@ -661,6 +724,8 @@ MonoBehaviour:
   m_LuaAsset: {fileID: -6979533126094156877, guid: c68f71dae5f140a489727de792b6f0ee, type: 3}
   m_LuaFilePath: 
   m_ForwardedEventTypes: -1
+  m_LunyRef: {fileID: 0}
+  m_IsLunyRefAssigned: 0
 --- !u!1 &1503011720
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,6 +736,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1503011721}
   - component: {fileID: 1503011722}
+  - component: {fileID: 1503011723}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -707,6 +773,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LuaAsset: {fileID: -6979533126094156877, guid: c18ee2f7263e76247a6bfdf9c1355863, type: 3}
   m_LuaFilePath: 
+  m_ForwardedEventTypes: 200
+--- !u!114 &1503011723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503011720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e26b507edb564f54b60396599740ab0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LuaAsset: {fileID: 0}
+  m_LuaFilePath: BreadAndButter/Toast.lua
   m_ForwardedEventTypes: -1
 --- !u!1 &1631893396
 GameObject:
@@ -768,3 +849,4 @@ SceneRoots:
   - {fileID: 234413402}
   - {fileID: 1444860806}
   - {fileID: 1503011721}
+  - {fileID: 244724138}

@@ -58,7 +58,7 @@ end
 
 -- OnEnable of ScriptableSingleton gets run after domain reload.
 function context.OnEnable()
-    print("Lua OnEnable " .. tostring(context.ChangeCount) .. ", this = " .. tostring(context.this))
+    print("Lua OnEnable " .. tostring(context.ChangeCount))
     context:Save()
 end
 
