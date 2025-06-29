@@ -28,11 +28,12 @@ MonoBehaviour:
     - {fileID: -6979533126094156877, guid: c18ee2f7263e76247a6bfdf9c1355863, type: 3}
     - {fileID: -6979533126094156877, guid: 519a893814ab8994292693235a8848e2, type: 3}
     - {fileID: -6979533126094156877, guid: d6e60ff13e5ae8e4883cc7127ce97229, type: 3}
-    - {fileID: -6979533126094156877, guid: 4c4bdb3fa545a224788e492a97aaf4bf, type: 3}
     - {fileID: -6979533126094156877, guid: 6ebe22f43c7f72146a5ffd10e98ca6d7, type: 3}
     - {fileID: -6979533126094156877, guid: fb1b23830c442384ca80a77f66921909, type: 3}
     - {fileID: -6979533126094156877, guid: b58fc99859ab0354d8558af7e3bf0f91, type: 3}
     - {fileID: -6979533126094156877, guid: a6a4735ed7ee4e74688a2eca56ff917d, type: 3}
+    - {fileID: -6979533126094156877, guid: 93b5597bce1a88a459a74d451ba303c8, type: 3}
+    - {fileID: -6979533126094156877, guid: 4c4bdb3fa545a224788e492a97aaf4bf, type: 3}
     m_LuaAssetPaths:
     - Assets/Scripts/Luny/Runtime/New Folder/AuxRuntimeScript.lua
     - Assets/Scripts/Luny/Runtime/TestLunyScript.lua
@@ -41,26 +42,29 @@ MonoBehaviour:
     - Assets/Scripts/Luny/Runtime/New Folder 1/MyFirstLunyScript.lua
     - Assets/Scripts/Luny/Modding/New Folder/AuxModdingScript.lua
     - Assets/Scripts/Luny/Modding/ModdingLuaScript.lua
-    - Assets/Scripts/Luny/Modding/ModdingAutoRun.lua
     - Assets/Scripts/Luny/Runtime/RuntimeAutoRun.lua
     - Assets/Scripts/Luny/Modding/New Lua Script.lua
     - Assets/Scripts/Luny/Runtime/MyLunyScript.lua
     - Assets/Scripts/Luny/Modding/MyModScript.lua
+    - Assets/Scripts/Luny/Runtime/_ScriptMoveTest.lua
+    - Assets/Scripts/Luny/Runtime/________ModdingAutoRun.lua
   m_ModdingAutoRunLuaAssets:
     m_LuaAssets:
     - {fileID: -6979533126094156877, guid: 4c4bdb3fa545a224788e492a97aaf4bf, type: 3}
     m_LuaAssetPaths:
-    - Assets/Scripts/Luny/Modding/ModdingAutoRun.lua
+    - Assets/Scripts/Luny/Modding/________ModdingAutoRun.lua
   m_ModdingLuaAssets:
     m_LuaAssets:
-    - {fileID: -6979533126094156877, guid: 4c4bdb3fa545a224788e492a97aaf4bf, type: 3}
     - {fileID: -6979533126094156877, guid: 519a893814ab8994292693235a8848e2, type: 3}
     - {fileID: -6979533126094156877, guid: d6e60ff13e5ae8e4883cc7127ce97229, type: 3}
     - {fileID: -6979533126094156877, guid: fb1b23830c442384ca80a77f66921909, type: 3}
     - {fileID: -6979533126094156877, guid: a6a4735ed7ee4e74688a2eca56ff917d, type: 3}
+    - {fileID: -6979533126094156877, guid: 93b5597bce1a88a459a74d451ba303c8, type: 3}
+    - {fileID: -6979533126094156877, guid: 4c4bdb3fa545a224788e492a97aaf4bf, type: 3}
     m_LuaAssetPaths:
-    - Assets/Scripts/Luny/Modding/ModdingStartup.lua
     - Assets/Scripts/Luny/Modding/New Folder/AuxModdingScript.lua
     - Assets/Scripts/Luny/Modding/ModdingLuaScript.lua
     - Assets/Scripts/Luny/Modding/New Lua Script.lua
     - Assets/Scripts/Luny/Modding/MyModScript.lua
+    - Assets/Scripts/Luny/Modding/_ScriptMoveTest.lua
+    - Assets/Scripts/Luny/Modding/________ModdingAutoRun.lua
