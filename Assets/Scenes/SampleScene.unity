@@ -865,9 +865,126 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78dd583510db6f64bb86b95483eac176, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializedLuaValueTest:
-    m_SerializedLuaValueType: 3
-    m_SerializedLuaValueString: 1234
+  LuaValueTest1:
+    m_ValueType: 3
+    m_BooleanValue: 1
+    m_NumberValue: 0
+    m_StringValue: 
+  LuaValueTest2:
+    m_ValueType: 3
+    m_BooleanValue: 0
+    m_NumberValue: 1.19
+    m_StringValue: 
+  LuaKeyValueTest1:
+    m_Key: asdasdssaddsasadasdasdasdasdasd
+    m_Value:
+      m_ValueType: 2
+      m_BooleanValue: 0
+      m_NumberValue: 0
+      m_StringValue: aaa
+  LuaKeyValueTest2:
+    m_Key: 33434
+    m_Value:
+      m_ValueType: 3
+      m_BooleanValue: 0
+      m_NumberValue: 123
+      m_StringValue: bbb
+  LuaTableTest1:
+    m_ArrayValues:
+    - m_ValueType: 1
+      m_BooleanValue: 1
+      m_NumberValue: 0
+      m_StringValue: 1
+    - m_ValueType: 3
+      m_BooleanValue: 0
+      m_NumberValue: -213
+      m_StringValue: 2a
+    - m_ValueType: 3
+      m_BooleanValue: 0
+      m_NumberValue: 1.234
+      m_StringValue: 
+    - m_ValueType: 1
+      m_BooleanValue: 1
+      m_NumberValue: 32
+      m_StringValue: 
+    - m_ValueType: 3
+      m_BooleanValue: 1
+      m_NumberValue: -1
+      m_StringValue: 
+    - m_ValueType: 3
+      m_BooleanValue: 1
+      m_NumberValue: -2
+      m_StringValue: 
+    m_DictionaryValues:
+    - m_Key: sesss
+      m_Value:
+        m_ValueType: 3
+        m_BooleanValue: 0
+        m_NumberValue: 1234
+        m_StringValue: 34
+    - m_Key: ererrrttt
+      m_Value:
+        m_ValueType: 1
+        m_BooleanValue: 0
+        m_NumberValue: 0
+        m_StringValue: 
+    - m_Key: 333
+      m_Value:
+        m_ValueType: 3
+        m_BooleanValue: 0
+        m_NumberValue: 1
+        m_StringValue: 
+    - m_Key: 444
+      m_Value:
+        m_ValueType: 3
+        m_BooleanValue: 0
+        m_NumberValue: 2
+        m_StringValue: 
+    - m_Key: 555
+      m_Value:
+        m_ValueType: 3
+        m_BooleanValue: 0
+        m_NumberValue: 3
+        m_StringValue: 
+    - m_Key: 666
+      m_Value:
+        m_ValueType: 1
+        m_BooleanValue: 1
+        m_NumberValue: 3
+        m_StringValue: 
+  LuaTableTest2:
+    m_ArrayValues:
+    - m_ValueType: 0
+      m_BooleanValue: 0
+      m_NumberValue: 0
+      m_StringValue: 
+    - m_ValueType: 1
+      m_BooleanValue: 0
+      m_NumberValue: 0
+      m_StringValue: 
+    - m_ValueType: 3
+      m_BooleanValue: 0
+      m_NumberValue: 0
+      m_StringValue: 
+    m_DictionaryValues:
+    - m_Key: 
+      m_Value:
+        m_ValueType: 0
+        m_BooleanValue: 0
+        m_NumberValue: 0
+        m_StringValue: 
+    - m_Key: 
+      m_Value:
+        m_ValueType: 0
+        m_BooleanValue: 0
+        m_NumberValue: 0
+        m_StringValue: 
+    - m_Key: 
+      m_Value:
+        m_ValueType: 0
+        m_BooleanValue: 0
+        m_NumberValue: 0
+        m_StringValue: 
 --- !u!4 &2078653539
 Transform:
   m_ObjectHideFlags: 0
