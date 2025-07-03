@@ -224,22 +224,38 @@ MonoBehaviour:
   m_LuaFilePath: 
   m_ForwardedEventTypes: -1
   m_ScriptContext:
-    m_ArrayValues: []
+    m_ArrayValues:
+    - m_ValueType: 1
+      m_BooleanValue: 1
+      m_NumberValue: 0
+      m_StringValue: 
+    - m_ValueType: 3
+      m_BooleanValue: 0
+      m_NumberValue: 1234
+      m_StringValue: 
+    - m_ValueType: 2
+      m_BooleanValue: 0
+      m_NumberValue: 0
+      m_StringValue: sdfsdfsdf
     m_DictionaryValues:
     - m_Key: test
       m_Value:
         m_ValueType: 3
         m_BooleanValue: 0
         m_NumberValue: 123456
-        m_StringValue: 1234
-      m_IsDuplicateKey: 0
+        m_StringValue: 
     - m_Key: sddfssdfsdf
       m_Value:
         m_ValueType: 2
         m_BooleanValue: 0
-        m_NumberValue: 1234
+        m_NumberValue: 0
         m_StringValue: dfsdfsdfsdf
-      m_IsDuplicateKey: 0
+    - m_Key: printInLua
+      m_Value:
+        m_ValueType: 2
+        m_BooleanValue: 0
+        m_NumberValue: 0
+        m_StringValue: Hey, print!
 --- !u!1 &244724135
 GameObject:
   m_ObjectHideFlags: 0
@@ -921,7 +937,6 @@ MonoBehaviour:
       m_BooleanValue: 0
       m_NumberValue: 0
       m_StringValue: aaa
-    m_IsDuplicateKey: 0
   LuaKeyValueTest2:
     m_Key: 33434
     m_Value:
@@ -929,100 +944,62 @@ MonoBehaviour:
       m_BooleanValue: 0
       m_NumberValue: 123
       m_StringValue: bbb
-    m_IsDuplicateKey: 0
   LuaTableTest1:
     m_ArrayValues:
-    - m_ValueType: 1
+    - m_ValueType: 3
       m_BooleanValue: 1
-      m_NumberValue: 0
+      m_NumberValue: 1
       m_StringValue: 1
     - m_ValueType: 3
-      m_BooleanValue: 0
-      m_NumberValue: -213
-      m_StringValue: 2a
-    - m_ValueType: 3
-      m_BooleanValue: 0
-      m_NumberValue: 1.234
-      m_StringValue: 
-    - m_ValueType: 1
       m_BooleanValue: 1
-      m_NumberValue: 32
-      m_StringValue: 
-    - m_ValueType: 3
-      m_BooleanValue: 1
-      m_NumberValue: -1
-      m_StringValue: 
-    - m_ValueType: 3
-      m_BooleanValue: 1
-      m_NumberValue: -2
-      m_StringValue: 
+      m_NumberValue: 2
+      m_StringValue: 1
     m_DictionaryValues:
     - m_Key: aaa
       m_Value:
         m_ValueType: 3
         m_BooleanValue: 0
-        m_NumberValue: 1234
-        m_StringValue: 34
-      m_IsDuplicateKey: 0
-    - m_Key: aaa
+        m_NumberValue: 345345435
+        m_StringValue: 
+    - m_Key: aa
       m_Value:
         m_ValueType: 1
-        m_BooleanValue: 0
+        m_BooleanValue: 1
         m_NumberValue: 0
         m_StringValue: 
-      m_IsDuplicateKey: 0
-    - m_Key: c
+    - m_Key: aaaa
       m_Value:
         m_ValueType: 3
         m_BooleanValue: 0
         m_NumberValue: 1
         m_StringValue: 
-      m_IsDuplicateKey: 0
-    - m_Key: d
+    - m_Key: m_ThisIsSomeVariableName
       m_Value:
         m_ValueType: 2
         m_BooleanValue: 0
-        m_NumberValue: 2
+        m_NumberValue: 0
         m_StringValue: sdasd
-      m_IsDuplicateKey: 0
     - m_Key: e
       m_Value:
         m_ValueType: 1
         m_BooleanValue: 1
-        m_NumberValue: 3
+        m_NumberValue: 0
         m_StringValue: 
-      m_IsDuplicateKey: 0
     - m_Key: f
       m_Value:
         m_ValueType: 1
         m_BooleanValue: 0
-        m_NumberValue: 3
+        m_NumberValue: 0
         m_StringValue: 
-      m_IsDuplicateKey: 0
     - m_Key: 777
       m_Value:
         m_ValueType: 1
         m_BooleanValue: 1
-        m_NumberValue: 3
+        m_NumberValue: 0
         m_StringValue: 
-      m_IsDuplicateKey: 0
   LuaTableTest2:
     m_ArrayValues: []
-    m_DictionaryValues:
-    - m_Key: aaa
-      m_Value:
-        m_ValueType: 0
-        m_BooleanValue: 0
-        m_NumberValue: 0
-        m_StringValue: 
-      m_IsDuplicateKey: 0
-    - m_Key: aaa
-      m_Value:
-        m_ValueType: 0
-        m_BooleanValue: 0
-        m_NumberValue: 0
-        m_StringValue: 
-      m_IsDuplicateKey: 0
+    m_DictionaryValues: []
 --- !u!4 &2078653539
 Transform:
   m_ObjectHideFlags: 0
