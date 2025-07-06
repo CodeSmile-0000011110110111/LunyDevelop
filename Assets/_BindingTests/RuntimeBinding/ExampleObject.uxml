@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Label text="Label" data-source="project://database/Assets/_BindingTests/RuntimeBinding/New%20Example%20Object.asset?fileID=11400000&amp;guid=bf3de52d859635341b6b1e0b63ee49df&amp;type=2#New Example Object" data-source-path="simpleLabel">
+        <Bindings>
+            <ui:DataBinding property="text" binding-mode="ToTarget" />
+        </Bindings>
+    </ui:Label>
+</ui:UXML>
