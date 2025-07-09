@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="VisualElement" style="flex-direction: row;">
+        <ui:Toggle>
+            <Bindings>
+                <ui:DataBinding property="value" data-source-path="enabled"  />
+            </Bindings>
+        </ui:Toggle>
+        <ui:TextField placeholder-text="filler text">
+            <Bindings>
+                <ui:DataBinding property="value" data-source-path="name"  />
+            </Bindings>
+        </ui:TextField>
+    </ui:VisualElement>
+</ui:UXML>

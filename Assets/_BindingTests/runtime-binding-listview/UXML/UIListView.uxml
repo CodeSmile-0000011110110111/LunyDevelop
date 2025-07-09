@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:GroupBox text="list view">
+        <ui:ListView binding-source-selection-mode="AutoAssign" item-template="ListViewItem.uxml" show-alternating-row-backgrounds="All" show-border="true" reorderable="true" horizontal-scrolling="true" show-foldout-header="true" show-add-remove-footer="true" reorder-mode="Animated" />
+    </ui:GroupBox>
+</ui:UXML>

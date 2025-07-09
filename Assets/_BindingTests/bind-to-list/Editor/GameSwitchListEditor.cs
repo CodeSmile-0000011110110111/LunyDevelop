@@ -15,9 +15,8 @@ namespace UIToolkitExamples
 
         public override VisualElement CreateInspectorGUI()
         {
-            m_EditorAsset = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/bind-to-list/Editor/game_switch_list_editor.uxml");
-            m_ItemAsset = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/bind-to-list/game_switch.uxml");
-            Debug.Log($"Assets: {m_EditorAsset}, {m_ItemAsset}");
+            m_EditorAsset = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/_BindingTests/bind-to-list/Editor/game_switch_list_editor.uxml");
+            m_ItemAsset = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/_BindingTests/bind-to-list/game_switch.uxml");
 
             var root = m_EditorAsset.CloneTree();
             var listView = root.Q<ListView>();
