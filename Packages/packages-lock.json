@@ -183,7 +183,7 @@
       "source": "local",
       "dependencies": {
         "de.codesmile.luacsharp": "0.5.0-dev.1",
-        "de.codesmile.core": "1.0.0"
+        "de.codesmile.core": "1.0.1"
       }
     },
     "de.codesmile.luny-install": {
