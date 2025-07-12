@@ -17,22 +17,22 @@ function context.OnEnable()
 end
 
 
-print("---------------")
-local enumLength = #testEnum;
-print("length = " .. tostring(enumLength))
-print("testEnum = " .. tostring(testEnum) .. ", length = " .. tostring(#testEnum))
-
-for key, value in pairs(testEnum) do
-    print("\t" .. tostring(key) .. " = " .. tostring(value))
-end
-
-print("Fill = " .. tostring(testEnum.Fill))
-
-print("------...------")
-
-
-print("assign should raise error:")
-testEnum.Fill = 498
+--print("---------------")
+--local enumLength = #testEnum;
+--print("length = " .. tostring(enumLength))
+--print("testEnum = " .. tostring(testEnum) .. ", length = " .. tostring(#testEnum))
+--
+--for key, value in pairs(testEnum) do
+--    print("\t" .. tostring(key) .. " = " .. tostring(value))
+--end
+--
+--print("Fill = " .. tostring(testEnum.Fill))
+--
+--print("------...------")
+--
+--
+--print("assign should raise error:")
+--testEnum.Fill = 498
 
 
 --[[
