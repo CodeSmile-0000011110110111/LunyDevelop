@@ -1,5 +1,6 @@
-using CodeSmile.Luny;
-using Lua;using UnityEngine;
+using Lua;
+using Luny;
+using UnityEngine;
 
 public sealed class MyModScript : LunyScript
 {
