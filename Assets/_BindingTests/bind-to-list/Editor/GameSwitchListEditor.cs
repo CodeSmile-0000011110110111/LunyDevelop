@@ -5,7 +5,7 @@ using UnityEngine.UIElements;
 namespace UIToolkitExamples
 {
     [CustomEditor(typeof(GameSwitchListAsset))]
-    public class GameSwitchListEditor : Editor
+    public class GameSwitchListEditor : UnityEditor.Editor
     {
         [SerializeField]
         VisualTreeAsset m_ItemAsset;

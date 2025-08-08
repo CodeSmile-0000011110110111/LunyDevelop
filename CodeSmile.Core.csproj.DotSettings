@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/CodeInspection/NamespaceProvider/NamespaceFoldersToSkip/=p_003A_005Cde_002Ecodesmile_002Ecore_005Cruntime_005Cassets/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeInspection/NamespaceProvider/NamespaceFoldersToSkip/=p_003A_005Cde_002Ecodesmile_002Ecore_005Cruntime_005Cattributes/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeInspection/NamespaceProvider/NamespaceFoldersToSkip/=p_003A_005Cde_002Ecodesmile_002Ecore_005Cruntime_005Ccomponents_005Cpool/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeInspection/NamespaceProvider/NamespaceFoldersToSkip/=p_003A_005Cde_002Ecodesmile_002Ecore_005Cruntime_005Ccomponents_005Cregistry/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeInspection/NamespaceProvider/NamespaceFoldersToSkip/=p_003A_005Cde_002Ecodesmile_002Ecore_005Cruntime_005Ccomponents_005Cutility/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeInspection/NamespaceProvider/NamespaceFoldersToSkip/=p_003A_005Cde_002Ecodesmile_002Ecore_005Cruntime_005Cextensions_005Csystem/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeInspection/NamespaceProvider/NamespaceFoldersToSkip/=p_003A_005Cde_002Ecodesmile_002Ecore_005Cruntime_005Cextensions_005Cunityengine/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeInspection/NamespaceProvider/NamespaceFoldersToSkip/=p_003A_005Cde_002Ecodesmile_002Ecore_005Cruntime_005Cextensions/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeInspection/NamespaceProvider/NamespaceFoldersToSkip/=p_003A_005Cde_002Ecodesmile_002Ecore_005Cruntime_005Cgameobject/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeInspection/NamespaceProvider/NamespaceFoldersToSkip/=p_003A_005Cde_002Ecodesmile_002Ecore_005Cruntime_005Cio/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeInspection/NamespaceProvider/NamespaceFoldersToSkip/=p_003A_005Cde_002Ecodesmile_002Ecore_005Cruntime_005Cutility/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
