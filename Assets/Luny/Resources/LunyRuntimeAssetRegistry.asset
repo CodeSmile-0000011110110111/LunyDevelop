@@ -52,12 +52,12 @@ MonoBehaviour:
     - Assets/Scripts/Luny/Runtime/RuntimeAutoRun.lua
     - Assets/Scripts/Luny/Runtime/TestLunyScript.lua
     - Assets/Scripts/Luny/Runtime/TestModdingLunyScript.lua
-    - Packages/de.codesmile.luny/Tests/UnityEngine.CoreModule/LuaListTests.lua
+    - Packages/de.codesmile.luny/Tests/Luny.UnityEngine.CoreModule.Tests/LuaListTests.lua
     - Packages/de.codesmile.luny/Tests/Core/LuaModuleTestsBase.lua
-    - Packages/de.codesmile.luny/Tests/UnityEngine.CoreModule/LuaObjectTypeTests.lua
-    - Packages/de.codesmile.luny/Tests/UnityEngine.CoreModule/LuaValueTypeTests.lua
-    - Packages/de.codesmile.luny/Tests/UnityEngine.CoreModule/LuaNamespacesAndEnumsTests.lua
-    - Packages/de.codesmile.luny/Tests/UnityEngine.CoreModule/LuaObjectBindTests.lua
+    - Packages/de.codesmile.luny/Tests/Luny.UnityEngine.CoreModule.Tests/LuaObjectTypeTests.lua
+    - Packages/de.codesmile.luny/Tests/Luny.UnityEngine.CoreModule.Tests/LuaValueTypeTests.lua
+    - Packages/de.codesmile.luny/Tests/Luny.UnityEngine.CoreModule.Tests/LuaNamespacesAndEnumsTests.lua
+    - Packages/de.codesmile.luny/Tests/Luny.UnityEngine.CoreModule.Tests/LuaObjectBindTests.lua
   m_ModdingAutoRunLuaAssets:
     m_LuaAssets: []
     m_LuaAssetPaths: []
