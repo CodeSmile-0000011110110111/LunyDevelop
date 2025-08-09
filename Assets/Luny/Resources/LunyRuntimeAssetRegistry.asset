@@ -19,7 +19,6 @@ MonoBehaviour:
     m_LuaAssetPaths: []
   m_RuntimeLuaAssets:
     m_LuaAssets:
-    - {fileID: -6979533126094156877, guid: 9b6715e4d5f8ffd4eb225fe8b0c38777, type: 3}
     - {fileID: -6979533126094156877, guid: 4c4bdb3fa545a224788e492a97aaf4bf, type: 3}
     - {fileID: -6979533126094156877, guid: d6e60ff13e5ae8e4883cc7127ce97229, type: 3}
     - {fileID: -6979533126094156877, guid: a6a4735ed7ee4e74688a2eca56ff917d, type: 3}
@@ -38,8 +37,9 @@ MonoBehaviour:
     - {fileID: -6979533126094156877, guid: b2fb2773f0d0ccb4ba34e1a39bee3394, type: 3}
     - {fileID: -6979533126094156877, guid: bca4f6412f568cb4fbc688dee2ce5c90, type: 3}
     - {fileID: -6979533126094156877, guid: da45a295aaed48b9a32505eede3000ca, type: 3}
+    - {fileID: -6979533126094156877, guid: 10f1acad6bf881d4cbd148d96fab0a64, type: 3}
+    - {fileID: -6979533126094156877, guid: 9b6715e4d5f8ffd4eb225fe8b0c38777, type: 3}
     m_LuaAssetPaths:
-    - Assets/Resources/ResourcesLua.lua
     - Assets/Scripts/Luny/Modding/________ModdingAutoRun.lua
     - Assets/Scripts/Luny/Modding/ModdingLuaScript.lua
     - Assets/Scripts/Luny/Modding/MyModScript.lua
@@ -58,6 +58,8 @@ MonoBehaviour:
     - Packages/de.codesmile.luny/Tests/Luny.UnityEngine.CoreModule.Tests/LuaValueTypeTests.lua
     - Packages/de.codesmile.luny/Tests/Luny.UnityEngine.CoreModule.Tests/LuaNamespacesAndEnumsTests.lua
     - Packages/de.codesmile.luny/Tests/Luny.UnityEngine.CoreModule.Tests/LuaObjectBindTests.lua
+    - Assets/Scripts/User/UserScript.lua
+    - Assets/Luny/Resources/ResourcesLua.lua
   m_ModdingAutoRunLuaAssets:
     m_LuaAssets: []
     m_LuaAssetPaths: []

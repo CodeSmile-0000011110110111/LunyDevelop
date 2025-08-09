@@ -18,9 +18,15 @@ MonoBehaviour:
     - {fileID: -6979533126094156877, guid: fbf4464030f2ea2429f5f01d2348e09f, type: 3}
     - {fileID: -6979533126094156877, guid: a7b5d4a4e2222ca43a1d315172b149e8, type: 3}
     - {fileID: -6979533126094156877, guid: b61752c464a7bf1488b026cb4c394e97, type: 3}
+    - {fileID: -6979533126094156877, guid: f3bb792117e63c941b1cd90d997d1ce0, type: 3}
+    - {fileID: -6979533126094156877, guid: 835a2ce447b53f4459f2b01385f0ff4a, type: 3}
+    - {fileID: -6979533126094156877, guid: 558a59fb08500584bb09da9e30c5efa0, type: 3}
     m_LuaAssetPaths:
     - Assets/Scripts/Luny/Editor/Editor Lua Script.lua
     - Assets/Scripts/Luny/Editor/MainEditorScript.lua
     - Assets/Scripts/Luny/Editor/MyFirstEditorScript.lua
     - Assets/Scripts/Luny/Editor/New Folder/AuxEditorScript.lua
+    - Assets/Scripts/Luny/Examples/Editor/AutoOpenCreatedScenes.lua
+    - Assets/Scripts/Luny/Examples/Editor/New Lua Script.lua
+    - Assets/Scripts/Luny/Examples/Editor/New Lua Script 1.lua
   m_EditorContext: {fileID: 11400000, guid: 0523cdfce0433f446ba5a8b5757551e5, type: 2}

@@ -191,18 +191,11 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
-    "de.codesmile.core": {
-      "version": "file:P:/de.codesmile.core",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {}
-    },
     "de.codesmile.luny": {
       "version": "file:P:/de.codesmile.luny",
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "de.codesmile.core": "1.0.4",
         "com.unity.test-framework": "1.5.1"
       }
     },

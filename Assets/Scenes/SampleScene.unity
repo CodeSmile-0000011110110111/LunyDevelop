@@ -900,6 +900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2078653539}
   - component: {fileID: 2078653538}
+  - component: {fileID: 2078653540}
   m_Layer: 0
   m_Name: SerializableValue
   m_TagString: Untagged
@@ -1014,6 +1015,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2078653540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078653537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08591275ccc58974cb7c22ed7568681a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LuaAsset: {fileID: -6979533126094156877, guid: 10f1acad6bf881d4cbd148d96fab0a64, type: 3}
+  m_LuaFilePath: 
+  m_ForwardedEventTypes: -1
+  m_ScriptContext:
+    m_ArrayValues: []
+    m_DictionaryValues: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
