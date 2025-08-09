@@ -1,8 +1,8 @@
 -- 'context' can be any name, the ellipsis (...) represents arguments passed to the script
 local context = ...
 
-function context.OnWillReloadScript() print("RESOURCES OnWillReloadScript " .. context.ScriptName) end
-function context.OnDidLoadScript() print("RESOURCES OnDidLoadScript " .. context.ScriptName) end
+function context.OnScriptUnload() print("RESOURCES OnScriptUnload " .. context.ScriptName) end
+function context.OnScriptLoad() print("RESOURCES OnScriptLoad " .. context.ScriptName) end
 function context.OnValidate() print("RESOURCES OnValidate " .. context.ScriptName) end
 function context.Awake() print("RESOURCES Awake " .. context.ScriptName) end
 function context.OnEnable() print("RESOURCES OnEnable " .. context.ScriptName) end

@@ -1,4 +1,3 @@
-/*
 using System;
 using System.IO;
 using System.Linq;
@@ -8,24 +7,10 @@ using UnityEngine;
 
 public sealed class AutoOpenCreatedSceneAssets : AssetPostprocessor
 {
-	private static void OnPostprocessAllAssets(String[] importedAssets, String[] deletedAssets, String[] movedAssets,
-		String[] movedFromAssetPaths)
+	private static void OnPostprocessAllAssets(String[] importedPaths, String[] deletedPaths, String[] movedToPaths, String[] movedFromPaths)
 	{
-		if (importedAssets.Length > 0)
-		{
-			var importedScenePaths = importedAssets.Where(path => Path.GetExtension(path).Equals(".unity"));
-			foreach (var importedScenePath in importedScenePaths)
-			{
-				EditorSceneManager.OpenScene(importedScenePath, OpenSceneMode.Single);
-
-				// var scene = AssetDatabase.LoadAssetAtPath<SceneAsset>(importedScenePath);
-				// if (scene != null)
-				// {
-				// 	Debug.Log($"Auto-open created scene: {importedScenePath}");
-				// 	EditorSceneManager.OpenScene(importedScenePath, OpenSceneMode.Single);
-				// }
-			}
-		}
+		var scenePath = importedPaths.Where(path => Path.GetExtension(path).Equals(".unity")).FirstOrDefault();
+		if (scenePath != null)
+			EditorSceneManager.OpenScene(scenePath);
 	}
 }
-*/

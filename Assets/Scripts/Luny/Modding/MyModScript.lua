@@ -4,10 +4,10 @@
 local context = ...
 
 -- Use these events to respond to script loading, including hot reload
-function context.OnWillReloadScript()
+function context.OnScriptUnload()
 	print(context.ScriptName .. " was changed and will hot reload.")
 end
-function context.OnDidLoadScript()
+function context.OnScriptLoad()
 	print(context.ScriptName .. " was (re-)loaded.")
 end
 
