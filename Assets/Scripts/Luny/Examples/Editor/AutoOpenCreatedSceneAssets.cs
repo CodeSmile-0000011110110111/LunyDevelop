@@ -1,3 +1,4 @@
+/*
 using System;
 using System.IO;
 using System.Linq;
@@ -20,3 +21,4 @@ public sealed class AutoOpenCreatedSceneAssets : AssetPostprocessor
 			EditorSceneManager.OpenScene(scenePath);
 	}
 }
+*/

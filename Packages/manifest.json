@@ -2,7 +2,7 @@
   "dependencies": {
     "com.unity.ai.navigation": "2.0.8",
     "com.unity.ide.rider": "3.0.36",
-    "com.unity.inputsystem": "1.14.1",
+    "com.unity.inputsystem": "1.14.2",
     "com.unity.memoryprofiler": "1.1.7",
     "com.unity.multiplayer.center": "1.0.0",
     "com.unity.render-pipelines.universal": "17.0.4",
@@ -10,6 +10,7 @@
     "com.unity.toolchain.win-x86_64-linux-x86_64": "2.0.10",
     "com.unity.ugui": "2.0.0",
     "de.codesmile.luny": "file:P:/de.codesmile.luny",
+    "de.codesmile.luny-codegen": "file:P:/de.codesmile.luny-codegen",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
