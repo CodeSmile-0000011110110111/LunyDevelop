@@ -17,5 +17,6 @@ MonoBehaviour:
   m_ModdingContext: {fileID: 11400000, guid: 768214e4f8aefd941a550c8bfa6bc717, type: 2}
   m_EditorAutoRunLuaAssets:
   - {fileID: -6979533126094156877, guid: f3bb792117e63c941b1cd90d997d1ce0, type: 3}
+  - {fileID: -6979533126094156877, guid: da60768ce45e63b4082d080287395daf, type: 3}
   m_RuntimeAutoRunLuaAssets: []
   m_ModdingAutoRunLuaAssets: []
