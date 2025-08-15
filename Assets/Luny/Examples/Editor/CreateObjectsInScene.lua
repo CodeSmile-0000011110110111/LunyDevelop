@@ -1,7 +1,7 @@
 local context = ...
 
 context.OnScriptLoad = function()
-    --print("[" .. Time.realtimeSinceStartupAsDouble .. "] Script load")
+    print("Load " .. context.ScriptName)
 end
 
 context.OnEnable = function()
@@ -25,7 +25,7 @@ context.OnEnable = function()
         { chance = 100, type = AssetDatabase.LoadAssetAtPath(companionCubePath, GameObject) },
     }
 
-    local max = { x = 40, y = 3, z = 40 }
+    local max = { x = 12, y = 1, z = 12 }
 
     for x = 1, max.x do
         for y = 1, max.y do
@@ -50,4 +50,7 @@ context.OnEnable = function()
             end
         end
     end
+
+    -- select the root in the scene
+    --Selection.SetActiveObjectWithContext(rootObject, rootObject)
 end
