@@ -16,10 +16,10 @@ MonoBehaviour:
   m_ModdingContext: {fileID: 11400000, guid: 768214e4f8aefd941a550c8bfa6bc717, type: 2}
   m_RuntimeModuleLoaders:
   - AssemblyName: UnityEngine.CoreModule
-    LoaderVersion: 6000.0.55f1
-    LoaderHash: 1626129104
+    LoaderVersion: 6000.0.35f1
+    LoaderHash: 275280134
     Loader:
-      rid: 3323316053279244383
+      rid: 3323316114934726656
   m_RuntimeAutoRunLuaAssets:
     m_LuaAssets: []
     m_LuaAssetPaths: []
@@ -85,6 +85,6 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 3323316053279244383
+    - rid: 3323316114934726656
       type: {class: ModuleLoader, ns: Luny.UnityEngine.CoreModule.Internal, asm: Luny.UnityEngine.CoreModule}
       data: 
